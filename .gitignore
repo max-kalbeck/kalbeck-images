@@ -10,3 +10,5 @@ wheels/
 .venv
 /orig-files
 /split
+secret.env
+/to_ingest

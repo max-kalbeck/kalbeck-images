@@ -40,7 +40,7 @@ adapt input and ouput folder
 ./src/arche__filechecker.sh
 ```
 
-e.g. 
+e.g.
 
 ```bash
 echo "run filechecker"
@@ -54,3 +54,7 @@ docker run \
   acdhch/arche-ingest \
   --overwrite --skipWarnings /data /reports
 ```
+
+## ARCHE metadaten
+
+`arche/` holds static metadata and `arche__ingest_md.sh` script which calls `src/arche.py` responsible for creating `to_ingest/arche.ttl`
