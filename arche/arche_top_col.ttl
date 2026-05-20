@@ -74,3 +74,8 @@
 <https://d-nb.info/gnd/130029602> a acdh:Person;
     acdh:hasFirstName "Nikolaus"@de ;
     acdh:hasLastName "Urbanek"@de .
+
+# <https://id.acdh.oeaw.ac.at/memir> a acdh:Person;
+#     acdh:hasTitle "Mehmet Emir"@und ;
+#     acdh:hasLastName "Emir"@und ;
+#     acdh:hasFirstName "Mehmet"@und .
