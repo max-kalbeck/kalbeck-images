@@ -53,7 +53,6 @@
     acdh:hasCurator acdhi:pandorfer ;
     acdh:hasDepositor <https://orcid.org/0009-0002-3219-2839> ; # Henrike Rost
     acdh:hasMetadataCreator acdhi:pandorfer ;
-    acdh:hasNextItem <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_1__0001.tif> ;
     acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck aus dem Jahr 1895"""@de;
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1895."""@en. 
 
@@ -64,7 +63,6 @@
     acdh:hasDepositor <https://orcid.org/0009-0002-3219-2839> ; # Henrike Rost
     acdh:hasMetadataCreator acdhi:pandorfer ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs> ;
-    acdh:hasNextItem <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_2__0189.tif> ;
     acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck aus dem Jahr 1897"""@de;
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1897."""@en.
 

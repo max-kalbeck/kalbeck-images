@@ -44,9 +44,9 @@ for i, x in enumerate(tqdm(slice_one)):
         parent_col = URIRef(f"{TOP_COL}/facs/1897")
     g.add((subj, ACDH["isPartOf"], parent_col))
     g.add((subj, ACDH["hasTitle"], Literal(f_name, lang="und")))
-    if i + 1 < len(slice_one):
-        next_f_name = slice_one[i + 1]["filename"]
-        g.add((subj, ACDH["hasNextItem"], URIRef(f"{TOP_COL}/{next_f_name}")))
+    # if i + 1 < len(slice_one):
+    #     next_f_name = slice_one[i + 1]["filename"]
+    #     g.add((subj, ACDH["hasNextItem"], URIRef(f"{TOP_COL}/{next_f_name}")))
 
 ## this second loop is just some ugly workaround to process slices; for the whole set it can be removed
 slice_two = data[len(data) - 2 :]
@@ -70,9 +70,9 @@ for i, x in enumerate(tqdm(slice_two)):
         parent_col = URIRef(f"{TOP_COL}/facs/1897")
     g.add((subj, ACDH["isPartOf"], parent_col))
     g.add((subj, ACDH["hasTitle"], Literal(f_name, lang="und")))
-    if i + 1 < len(slice_two):
-        next_f_name = slice_two[i + 1]["filename"]
-        g.add((subj, ACDH["hasNextItem"], URIRef(f"{TOP_COL}/{next_f_name}")))
+    # if i + 1 < len(slice_two):
+    #     next_f_name = slice_two[i + 1]["filename"]
+    #     g.add((subj, ACDH["hasNextItem"], URIRef(f"{TOP_COL}/{next_f_name}")))
 
 
 g.serialize(out_file)
