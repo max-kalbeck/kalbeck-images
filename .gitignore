@@ -12,3 +12,4 @@ wheels/
 /split
 secret.env
 /to_ingest
+/images

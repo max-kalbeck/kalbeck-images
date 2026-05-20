@@ -24,7 +24,7 @@ with open("kalbeck_2/fileList.json", "r", encoding="utf-8") as fp:
 
 data = sorted(data + data_two, key=lambda x: x["filename"])
 
-slice_one = data[:2]
+slice_one = data[:3]
 for i, x in enumerate(tqdm(slice_one)):
     f_name = x["filename"]
     subj = URIRef(f"{TOP_COL}/{f_name}")
@@ -49,7 +49,7 @@ for i, x in enumerate(tqdm(slice_one)):
     #     g.add((subj, ACDH["hasNextItem"], URIRef(f"{TOP_COL}/{next_f_name}")))
 
 ## this second loop is just some ugly workaround to process slices; for the whole set it can be removed
-slice_two = data[len(data) - 2 :]
+slice_two = data[len(data) - 3 :]
 for i, x in enumerate(tqdm(slice_two)):
     f_name = x["filename"]
     subj = URIRef(f"{TOP_COL}/{f_name}")
