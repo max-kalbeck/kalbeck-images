@@ -5,6 +5,8 @@
     acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ;
     acdh:hasDepositor <https://orcid.org/0009-0002-3219-2839> ;
     acdh:hasMetadataCreator acdhi:pandorfer ;
-    acdh:hasLicensor <https://orcid.org/0009-0002-3219-2839> ;
-    acdh:hasOwner <https://d-nb.info/gnd/130029602> ;
-    acdh:hasRightsHolder <https://d-nb.info/gnd/130029602> .
+    acdh:hasLicensor acdhi:privateHands ;
+    acdh:hasOwner acdhi:privateHands ;
+    acdh:hasRightsInformation "Die original Tagebücher wurden von den Rechtesnafolgern Kalbecks zum Scannen zur Verfügung gestellt, allerdings mit der Auflage, die Scans unter der Lizenz CC-BY zu veröffentlichen."@de ;
+    acdh:hasRightsInformation "The original diaries were made available for scanning by the rights holders of Kalbeck, but with the condition that the scans be published under the CC-BY license."@en ;
+    acdh:hasRightsHolder acdhi:none .

@@ -75,7 +75,8 @@
     acdh:hasFirstName "Nikolaus"@de ;
     acdh:hasLastName "Urbanek"@de .
 
-# <https://id.acdh.oeaw.ac.at/memir> a acdh:Person;
-#     acdh:hasTitle "Mehmet Emir"@und ;
-#     acdh:hasLastName "Emir"@und ;
-#     acdh:hasFirstName "Mehmet"@und .
+acdhi:privateHands a acdh:Organisation ;
+    acdh:hasTitle "private hands (legal entity)"@en ;
+    acdh:hasTitle "Privatbesitz (Rechtsträger)"@de ;
+    acdh:hasDescription "The owner or possessor of a physical object."@en ;
+    acdh:hasDescription "Eigentümer oder Besitzer eines physischen Objektes."@de  .
