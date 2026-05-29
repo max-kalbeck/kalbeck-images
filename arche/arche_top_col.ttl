@@ -70,13 +70,3 @@
 <https://orcid.org/0009-0002-3219-2839> a acdh:Person;
     acdh:hasFirstName "Henrike"@de ;
     acdh:hasLastName "Rost"@de .
-
-<https://d-nb.info/gnd/130029602> a acdh:Person;
-    acdh:hasFirstName "Nikolaus"@de ;
-    acdh:hasLastName "Urbanek"@de .
-
-acdhi:privateHands a acdh:Organisation ;
-    acdh:hasTitle "private hands (legal entity)"@en ;
-    acdh:hasTitle "Privatbesitz (Rechtsträger)"@de ;
-    acdh:hasDescription "The owner or possessor of a physical object."@en ;
-    acdh:hasDescription "Eigentümer oder Besitzer eines physischen Objektes."@de .
