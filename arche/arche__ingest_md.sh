@@ -8,4 +8,4 @@ docker run --rm \
   --network="host" \
   --entrypoint arche-import-metadata \
   acdhch/arche-ingest \
-  /data/arche.ttl ${ARCHE} ${ARCHE_USER} ${ARCHE_PASSWORD}
+  /data/arche.ttl ${ARCHE} ${ARCHE_USER} ${ARCHE_PASSWORD}  --concurrency 6
