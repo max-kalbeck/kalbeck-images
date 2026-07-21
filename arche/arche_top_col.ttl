@@ -4,10 +4,10 @@
 
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch> a acdh:TopCollection ;
-    acdh:hasTitle """Kalbeck Tagebuch"""@de ;
-    acdh:hasTitle """Kalbeck Diary"""@en ;
-    acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck der Jahre 1895/1897"""@de;
-    acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the years 1895/1897."""@en;
+    acdh:hasTitle """Die Tagebücher von Max Kalbeck"""@de ;
+    acdh:hasTitle """The Diaries of Max Kalbeck"""@en ;
+    acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck der Jahre 1895 und 1897"""@de;
+    acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the years 1895 and 1897."""@en;
     acdh:hasTemporalCoverage "Die Tagebücher behandeln die Jahre 1895 und 1897."@de ;
     acdh:hasTemporalCoverage "The diaries cover the years 1895 and 1897."@en ;
     # acdh:hasUrl "https://kalbeck-tagebuch.acdh.oeaw.ac.at";
@@ -40,8 +40,8 @@
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles"""@de ;
     acdh:hasTitle """Kalbeck Diary Facsimiles"""@en ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch> ;
-    acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck der Jahre 1895/1897"""@de;
-    acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the years 1895/1897."""@en;
+    acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck der Jahre 1895 und 1897"""@de;
+    acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the years 1895 and 1897."""@en;
     acdh:hasCurator acdhi:pandorfer ;
     acdh:hasDepositor <https://orcid.org/0009-0002-3219-2839> ; # Henrike Rost
     acdh:hasMetadataCreator acdhi:pandorfer .
