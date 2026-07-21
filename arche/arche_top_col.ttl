@@ -39,6 +39,7 @@
 
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs> a acdh:Collection ;
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles"""@de ;
@@ -51,6 +52,7 @@
     acdh:hasMetadataCreator acdhi:pandorfer .
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1895> a acdh:Collection ;
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles 1895"""@de ;
@@ -63,6 +65,7 @@
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1895."""@en. 
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1897> a acdh:Collection ;
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles 1897"""@de ;

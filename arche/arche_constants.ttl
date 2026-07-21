@@ -9,6 +9,7 @@
     acdh:hasOwner acdhi:privateHands ;
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
     acdh:hasRightsInformation "Die original Tagebücher wurden von den Rechtesnafolgern Kalbecks zum Scannen zur Verfügung gestellt, allerdings mit der Auflage, die Scans unter der Lizenz CC-BY zu veröffentlichen."@de ;
     acdh:hasRightsInformation "The original diaries were made available for scanning by the rights holders of Kalbeck, but with the condition that the scans be published under the CC-BY license."@en ;
     acdh:hasRightsHolder acdhi:none .
