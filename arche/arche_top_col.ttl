@@ -37,9 +37,10 @@
     acdh:hasCreatedStartDate "1993-01-01"^^xsd:date ;
     acdh:hasCreatedEndDate "2019-12-31"^^xsd:date .
 
-
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs> a acdh:Collection ;
-    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>;
+    acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ;
+    acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ;
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles"""@de ;
@@ -52,7 +53,8 @@
     acdh:hasMetadataCreator acdhi:pandorfer .
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1895> a acdh:Collection ;
-    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>;
+    acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ; 
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles 1895"""@de ;
