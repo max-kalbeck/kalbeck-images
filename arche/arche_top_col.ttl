@@ -76,5 +76,5 @@
 
 
 <https://orcid.org/0009-0002-3219-2839> a acdh:Person;
-    acdh:hasFirstName "Henrike"@de ;
-    acdh:hasLastName "Rost"@de .
+    acdh:hasFirstName "Henrike"@und ;
+    acdh:hasLastName "Rost"@und .
