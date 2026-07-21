@@ -25,6 +25,7 @@
     acdh:hasCoverageStartDate "1895-01-01"^^xsd:date ;
     acdh:hasCoverageEndDate "1897-12-31"^^xsd:date ;
     acdh:hasRelatedDiscipline <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/604022> ; #Musikgeschichte
+    acdh:hasRelatedDiscipline <https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602031> ; #Literaturgeschichte
     acdh:hasCurator acdhi:pandorfer ;
     acdh:hasDepositor <https://orcid.org/0009-0002-3219-2839> ; # Henrike Rost
     acdh:hasMetadataCreator acdhi:pandorfer ;
