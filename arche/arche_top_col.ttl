@@ -8,8 +8,6 @@
     acdh:hasTitle """The Diaries of Max Kalbeck"""@en ;
     acdh:hasDescription """Diese Sammlung enthält die Scans der Tagebücher von Max Kalbeck der Jahre 1895 und 1897"""@de;
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the years 1895 and 1897."""@en;
-    acdh:hasTemporalCoverage "Die Tagebücher behandeln die Jahre 1895 und 1897."@de ;
-    acdh:hasTemporalCoverage "The diaries cover the years 1895 and 1897."@en ;
     acdh:hasSpatialCoverage <https://sws.geonames.org/2761369/> ;
     # acdh:hasUrl "https://kalbeck-tagebuch.acdh.oeaw.ac.at";
     acdh:hasLifeCycleStatus <https://vocabs.acdh.oeaw.ac.at/archelifecyclestatus/active> ;
