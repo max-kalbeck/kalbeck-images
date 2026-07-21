@@ -32,11 +32,15 @@
     acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ; # Henrike Rost
     acdh:hasPrincipalInvestigator <https://orcid.org/0009-0002-3219-2839> ;  # Henrike Rost
     acdh:hasEditor <https://orcid.org/0009-0002-3219-2839> ; # Henrike Rost
+    acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
+    acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasCreatedStartDate "1993-01-01"^^xsd:date ;
     acdh:hasCreatedEndDate "2019-12-31"^^xsd:date .
 
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs> a acdh:Collection ;
+    acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
+    acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles"""@de ;
     acdh:hasTitle """Kalbeck Diary Facsimiles"""@en ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch> ;
@@ -47,6 +51,8 @@
     acdh:hasMetadataCreator acdhi:pandorfer .
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1895> a acdh:Collection ;
+    acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
+    acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles 1895"""@de ;
     acdh:hasTitle """Kalbeck Diary Facsimiles 1895"""@en ;
     acdh:isPartOf <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs> ;
@@ -57,6 +63,8 @@
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1895."""@en. 
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1897> a acdh:Collection ;
+    acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
+    acdh:hasActor <https://d-nb.info/gnd/11603498X>;
     acdh:hasTitle """Kalbeck Tagebuch Faksimiles 1897"""@de ;
     acdh:hasTitle """Kalbeck Diary Facsimiles 1897"""@en ;
     acdh:hasCurator acdhi:pandorfer ;
