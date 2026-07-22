@@ -53,6 +53,10 @@
     acdh:hasMetadataCreator acdhi:pandorfer .
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1895> a acdh:Collection ;
+    acdh:hasOaiSet <https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool>;
+    acdh:hasTag "TEXT"@de; 
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
+    acdh:hasNextItem <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_1__0001.tif>;
     acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>;
     acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ; 
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
@@ -67,6 +71,10 @@
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1895."""@en. 
 
 <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1897> a acdh:Collection ;
+    acdh:hasNextItem <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_2__0001.tif>;
+    acdh:hasOaiSet <https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool>;
+    acdh:hasTag "TEXT"@de; 
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0>;
     acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
     acdh:hasAuthor <https://d-nb.info/gnd/11603498X>;
     acdh:hasActor <https://d-nb.info/gnd/11603498X>;
