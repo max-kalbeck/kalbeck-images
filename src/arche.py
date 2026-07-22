@@ -36,6 +36,7 @@ for i, x in enumerate(tqdm(data)):
             URIRef("https://vocabs.acdh.oeaw.ac.at/archecategory/image"),
         )
     )
+
     for p, o in arche_constants.predicate_objects():
         g.add((subj, p, o))
     if f_name.startswith("kalbeck_1"):
@@ -47,6 +48,16 @@ for i, x in enumerate(tqdm(data)):
     g.add(
         (subj, ACDH["hasDigitisingAgent"], URIRef("https://id.acdh.oeaw.ac.at/memir"))
     )
+    try:
+        next_item = data[i + 1]
+    except IndexError:
+        next_item = False
+        continue
+    next_item = next_item["filename"]
+    if "kalbeck_1" in f_name and "kalbeck_1" in next_item:
+        g.add((subj, ACDH["hasNextItem"], URIRef(URIRef(f"{TOP_COL}/{next_item}"))))
+    if "kalbeck_2" in f_name and "kalbeck_2" in next_item:
+        g.add((subj, ACDH["hasNextItem"], URIRef(URIRef(f"{TOP_COL}/{next_item}"))))
 
 
 g.serialize(out_file)
