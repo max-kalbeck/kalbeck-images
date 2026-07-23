@@ -89,6 +89,25 @@
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1897."""@en.
 
 
+<https://id.acdh.oeaw.ac.at/wiener-rundschau/title-image.jpg> a acdh:Resource ;
+    acdh:hasTitle """Titelbild zu: Die Tagebücher von Max Kalbeck"""@de ;
+    acdh:hasTitle """Title image for: The Diaries of Max Kalbeck"""@en ;
+    acdh:hasDescription """Das Bild zeigt den Einband der beiden Tagebücher"""@de ;
+    acdh:hasDescription """The image shows the cover of the two diaries."""@en ;
+    acdh:isPartOf <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch> ;
+    acdh:hasCategory <https://vocabs.acdh.oeaw.ac.at/archecategory/image> ;
+    acdh:isTitleImageOf <https://id.acdh.oeaw.ac.at/kalbeck-tagebuch> ;
+    acdh:hasLicense <https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0> ;
+    acdh:hasContact <https://orcid.org/0009-0002-3219-2839> ;
+    acdh:hasDepositor <https://orcid.org/0009-0002-3219-2839> ;
+    acdh:hasMetadataCreator acdhi:pandorfer ;
+    acdh:hasLicensor acdhi:privateHands ;
+    acdh:hasOwner acdhi:privateHands ;
+    acdh:hasDigitisingAgent <https://id.acdh.oeaw.ac.at/memir>; 
+    acdh:hasRightsInformation "Die original Tagebücher wurden von den Rechtesnafolgern Kalbecks zum Scannen zur Verfügung gestellt, allerdings mit der Auflage, die Scans unter der Lizenz CC-BY zu veröffentlichen."@de ;
+    acdh:hasRightsInformation "The original diaries were made available for scanning by the rights holders of Kalbeck, but with the condition that the scans be published under the CC-BY license."@en ;
+    acdh:hasRightsHolder acdhi:none .
+
 <https://orcid.org/0009-0002-3219-2839> a acdh:Person;
     acdh:hasFirstName "Henrike"@und ;
     acdh:hasLastName "Rost"@und .
