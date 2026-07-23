@@ -89,7 +89,7 @@
     acdh:hasDescription """This collection contains the scans of Max Kalbeck’s diaries from the year 1897."""@en.
 
 
-<https://id.acdh.oeaw.ac.at/wiener-rundschau/title-image.jpg> a acdh:Resource ;
+<https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/title-image.jpg> a acdh:Resource ;
     acdh:hasTitle """Titelbild zu: Die Tagebücher von Max Kalbeck"""@de ;
     acdh:hasTitle """Title image for: The Diaries of Max Kalbeck"""@en ;
     acdh:hasDescription """Das Bild zeigt den Einband der beiden Tagebücher"""@de ;
