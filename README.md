@@ -58,3 +58,10 @@ docker run \
 ## ARCHE metadaten
 
 `arche/` holds static metadata and `arche__ingest_md.sh` script which calls `src/arche.py` responsible for creating `to_ingest/arche.ttl`
+
+## IIIF
+
+<https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_1__0006_b.tif?format=thumbnail>
+<https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_1__0006_b.tif?format=image%2Fjson>
+<https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/kalbeck_1__0006_b.tif?format=image%2Fwebp&param=full/full/90/default.png>
+<https://id.acdh.oeaw.ac.at/kalbeck-tagebuch/facs/1895?format=iiifmanifest>
